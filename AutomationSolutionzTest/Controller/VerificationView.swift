@@ -33,4 +33,12 @@ class VerificationView: UIView {
         viewSubview.frame = bounds
         addSubview(viewSubview)
     }
+    
+    @IBAction func continueButtonAction(_ sender: Any) {
+        self.removeFromSuperview()
+    }
+    
+    @IBAction func cancelButtonAction(_ sender: Any) {
+        self.removeFromSuperview()
+    }
 }

@@ -21,6 +21,10 @@
 		FB48B6D9291984EC0045C774 /* StoreDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB48B6D7291984EC0045C774 /* StoreDataTableViewCell.xib */; };
 		FB48B6DB29198D910045C774 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B6DA29198D910045C774 /* UITextField.swift */; };
 		FB48B6DD291995500045C774 /* UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B6DC291995500045C774 /* UIAlert.swift */; };
+		FB48B6DF291999950045C774 /* BookItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B6DE291999950045C774 /* BookItemView.swift */; };
+		FB48B6E1291999A20045C774 /* BookItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB48B6E0291999A20045C774 /* BookItemView.xib */; };
+		FB48B6E32919A0060045C774 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B6E22919A0060045C774 /* VerificationView.swift */; };
+		FB48B6E52919A00F0045C774 /* VerificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB48B6E42919A00F0045C774 /* VerificationView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		FB48B6D7291984EC0045C774 /* StoreDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreDataTableViewCell.xib; sourceTree = "<group>"; };
 		FB48B6DA29198D910045C774 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		FB48B6DC291995500045C774 /* UIAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlert.swift; sourceTree = "<group>"; };
+		FB48B6DE291999950045C774 /* BookItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItemView.swift; sourceTree = "<group>"; };
+		FB48B6E0291999A20045C774 /* BookItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookItemView.xib; sourceTree = "<group>"; };
+		FB48B6E22919A0060045C774 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		FB48B6E42919A00F0045C774 /* VerificationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerificationView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				FB48B6B52918202F0045C774 /* HomeController.swift */,
+				FB48B6E22919A0060045C774 /* VerificationView.swift */,
+				FB48B6E42919A00F0045C774 /* VerificationView.xib */,
+				FB48B6DE291999950045C774 /* BookItemView.swift */,
+				FB48B6E0291999A20045C774 /* BookItemView.xib */,
 				FB48B6D6291984EC0045C774 /* StoreDataTableViewCell.swift */,
 				FB48B6D7291984EC0045C774 /* StoreDataTableViewCell.xib */,
 			);
@@ -190,9 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB48B6BE291820390045C774 /* LaunchScreen.storyboard in Resources */,
+				FB48B6E52919A00F0045C774 /* VerificationView.xib in Resources */,
 				FB48B6D9291984EC0045C774 /* StoreDataTableViewCell.xib in Resources */,
 				FB48B6BB291820390045C774 /* Assets.xcassets in Resources */,
 				FB48B6C62918206D0045C774 /* StoreData.json in Resources */,
+				FB48B6E1291999A20045C774 /* BookItemView.xib in Resources */,
 				FB48B6B92918202F0045C774 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB48B6DF291999950045C774 /* BookItemView.swift in Sources */,
 				FB48B6CC291821080045C774 /* StoreResponseModel.swift in Sources */,
 				FB48B6D8291984EC0045C774 /* StoreDataTableViewCell.swift in Sources */,
 				FB48B6CE2918219F0045C774 /* Networking.swift in Sources */,
@@ -211,6 +226,7 @@
 				FB48B6DB29198D910045C774 /* UITextField.swift in Sources */,
 				FB48B6B62918202F0045C774 /* HomeController.swift in Sources */,
 				FB48B6B22918202F0045C774 /* AppDelegate.swift in Sources */,
+				FB48B6E32919A0060045C774 /* VerificationView.swift in Sources */,
 				FB48B6B42918202F0045C774 /* SceneDelegate.swift in Sources */,
 				FB48B6D129182A5F0045C774 /* UIViewExtension.swift in Sources */,
 			);

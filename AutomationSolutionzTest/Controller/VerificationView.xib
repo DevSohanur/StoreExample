@@ -52,6 +52,9 @@
                                     <state key="normal" title="Cancel">
                                         <color key="titleColor" systemColor="systemRedColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="cancelButtonAction:" destination="-1" eventType="touchUpInside" id="h19-u5-I8j"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Nw-ym-xZl">
                                     <rect key="frame" x="120" y="10" width="110" height="40"/>
@@ -65,6 +68,9 @@
                                     <state key="normal" title="Continue">
                                         <color key="titleColor" systemColor="tintColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="continueButtonAction:" destination="-1" eventType="touchUpInside" id="Xgr-9H-T74"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
