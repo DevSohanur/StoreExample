@@ -78,7 +78,6 @@ class HomeController: UIViewController {
         print("Failed To get Data: \(error)")
     }
     
-    
     @IBAction func bookButtonAction(_ sender: Any) {
         if (selectedProduct.id ?? 0) == 0 {
             self.addAlert(title: "Failed!", message: "Please select item from avove to Book")
@@ -87,10 +86,12 @@ class HomeController: UIViewController {
             self.addAlert(title: "Failed!", message: "Selected Item is not available to Book")
         }
         else{
-            print("Now Implement Logic for Book Now")
+            let bookItemView = BookItemView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height))
+            bookItemView.bindData(data: selectedProduct)
+            bookItemView.viewController = self
+            view.addSubview(bookItemView)
         }
     }
-    
 }
 
 
